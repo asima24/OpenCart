@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="4" thread-count="2" parallel="tests" >
+
+
+	<test name="LoginPageTest">
+	 <!--parameter name="browser" value="Chrome"></parameter-->
+	
+		<classes>
+			<class name="com.opencart.test.LoginPageTest" />
+		</classes>
+	</test>
+	
+	<!--  test name="AccountPageTest">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.opencart.test.AccountPageTest" />
+		</classes>
+	</test>
+	<test name="ProductInfoPageTest">
+	<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="com.opencart.test.ProductInfoPageTest" />
+		</classes>
+	</test>
+	
+	<test name="RegistrationPageTest">
+	<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="com.opencart.test.RegistrationPageTest" />
+		</classes>
+	</test-->
+
+	<!-- Test -->
+</suite> <!-- Suite -->
