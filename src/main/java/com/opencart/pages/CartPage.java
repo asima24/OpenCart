@@ -7,7 +7,7 @@ public class CartPage {
 	By icon=By.xpath("text");
 	
 	public void cartCheckout() {
-		
+	System.out.println("the cart page is printed");
 	}
 
 }
