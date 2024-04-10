@@ -12,8 +12,12 @@ public class chromePerformance {
 	 public static void main(String[] args) {
 	        ChromeOptions options = new ChromeOptions();
 	        options.addArguments("--enable-logging"); // Enable logging
+	        options.addArguments("");
 	      // Required for non-W3C compliant browsers like Chrome
-
+          int i=10;
+          int b=20;
+          int c=i+b;
+          System.out.println("the value of c is"+ c);
 	        WebDriver driver = new ChromeDriver(options);
 	        driver.get("https://google.com/");
 	        // Enable performance logging
