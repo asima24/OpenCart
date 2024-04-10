@@ -2,6 +2,7 @@ allure-results/
 test-output/
 build/
 reports/
+screenshot/
 
 application.log
 ##############################
@@ -55,6 +56,7 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+*.png
 
 ## OS X
 ##############################
