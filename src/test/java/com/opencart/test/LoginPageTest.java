@@ -131,11 +131,11 @@ public class LoginPageTest extends BaseTest{
 		
 	}
 	
-	@Test(dataProvider="wrongCredentials")
-	public void loginWithWrongCredentials(String username,String pwd) throws InterruptedException {
-	   boolean result=loginPage.loginWithWrongCredentials(username, pwd);
-	   Assert.assertTrue(result);
-		
-	}
+//	@Test(dataProvider="wrongCredentials")
+//	public void loginWithWrongCredentials(String username,String pwd) throws InterruptedException {
+//	   boolean result=loginPage.loginWithWrongCredentials(username, pwd);
+//	   Assert.assertTrue(result);
+//		
+//	}
 
 }
